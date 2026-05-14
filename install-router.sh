@@ -17,10 +17,10 @@ fi
 if [[ -d "/opt/cloud-iprotate/" ]]; then
     rm -rf /opt/cloud-iprotate/
 fi
-sudo curl https://raw.githubusercontent.com/ilyasbit/ss-easy-setup/main/install-only.sh | sudo bash -s
+sudo curl https://raw.githubusercontent.com/padicuci/ss-easy-setup/main/install-only.sh | sudo bash -s
 mkdir -p /etc/shadowsocks/
 rm -rf cloud-iprotate/
-git clone https://github.com/ilyasbit/cloud-iprotate.git
+git clone https://github.com/padicuci/cloud-iprotate.git
 
 mv cloud-iprotate /opt/
 cd /opt/cloud-iprotate/
